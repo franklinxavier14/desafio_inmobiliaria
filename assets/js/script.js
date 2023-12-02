@@ -2,21 +2,21 @@ import propiedadesAlquiler from "./data/dptoalquiler.js"
 import propiedadesVenta from "./data/dptoalquiler.js"
 
 
-
-
 // Propiedades en Alquiler
 
-// cuerpo del HTML
 const alquiler = document.querySelector("#propiedadAlquiler")
 let templateAlquiler = `<div class="row ms-4 me-4 pt-5">`
 
-// Filtro de 3 cards
+// Filtro para mostrar solo 3 cards
 
 const propiedadesAlquilerIndex = propiedadesAlquiler.slice(0,3)
 
-// se recorre arreglo de propiedades en alquiler
+// Recorrido de las propiedades del arreglo de alquiler
+
 for (const propiedad of propiedadesAlquilerIndex) {
-// ícono y clase de color según la condición
+
+// Iconos segun condiciones
+
 const iconoFumar = propiedad.smoke ? 'fas fa-smoking' : 'fas fa-smoking-ban';
 const claseColorFumar = propiedad.smoke ? 'text-success' : 'text-danger';
 
@@ -53,23 +53,25 @@ const claseColorMascotas = propiedad.pets ? 'text-success' : 'text-danger';
 
     `;
 }
-   // template al cuerpo del HTML fuera del bucle
+
 alquiler.innerHTML = templateAlquiler;
 
 
 // Propiedades en Nuevas
 
-// cuerpo del HTML
 const venta = document.querySelector("#propiedadVenta")
 let templateventa = `<div class="row ms-4 me-4 pt-5">`
 
-// Filtro de 3 cards
+// Filtro para mostrar solo 3 cards
 
 const propiedadesVentaIndex = propiedadesVenta.slice(0,3)
 
-// se recorre arreglo de propiedades en alquiler
+// Recorrido de las propiedades del arreglo de alquiler
+
 for (const propiedad of propiedadesVentaIndex) {
-// ícono y clase de color según la condición
+
+// Iconos segun condiciones
+
 const iconoFumar = propiedad.smoke ? 'fas fa-smoking' : 'fas fa-smoking-ban';
 const claseColorFumar = propiedad.smoke ? 'text-success' : 'text-danger';
 
@@ -107,5 +109,5 @@ const claseColorMascotas = propiedad.pets ? 'text-success' : 'text-danger';
 
     `;
 }
-   // template al cuerpo del HTML fuera del bucle
+
 venta.innerHTML = templateventa;

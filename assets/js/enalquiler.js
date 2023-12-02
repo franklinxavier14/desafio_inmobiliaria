@@ -1,15 +1,12 @@
 import propiedadesAlquiler from "./data/dptoalquiler.js"
 
-
 // Propiedades en Alquiler
 
-// cuerpo del HTML
 const alquiler = document.querySelector("#propiedadAlquiler")
 let templateAlquiler = `<div class="row ms-4 me-4 pt-5">`
 
-// se recorre arreglo de propiedades en alquiler
 for (const propiedad of propiedadesAlquiler) {
-// ícono y clase de color según la condición
+
 const iconoFumar = propiedad.smoke ? 'fas fa-smoking' : 'fas fa-smoking-ban';
 const claseColorFumar = propiedad.smoke ? 'text-success' : 'text-danger';
 
@@ -46,7 +43,8 @@ const claseColorMascotas = propiedad.pets ? 'text-success' : 'text-danger';
 
     `;
 }
-   // template al cuerpo del HTML fuera del bucle
+
+
 alquiler.innerHTML = templateAlquiler;
 
 
