@@ -3,9 +3,9 @@ const propiedadesAlquiler = [
         nombre: 'Apartamento céntrico',
         src: 'assets/img/imagen1.jpg',
         descripcion: 'Moderno apartamento en el centro de la ciudad',
-        ubicacion: '123 Downtown Street, Urban City, CA 12345',
+        ubicacion: 'Av. Alameda, Stgo Centro',
         habitaciones: 2,
-        costo: 1500,
+        costo: 12500,
         smoke: true,
         pets: false
     },
@@ -13,50 +13,50 @@ const propiedadesAlquiler = [
         nombre: 'Casa tranquila con jardín',
         src: 'assets/img/imagen2.jpeg',
         descripcion: 'Encantadora casa con amplio jardín',
-        ubicacion: '456 Peaceful Lane, Suburbia, CA 67890',
+        ubicacion: 'Av. Irarrazaval, Stgo',
         habitaciones: 3,
-        costo: 2000,
+        costo: 25000,
         smoke: false,
-        pets: false
+        pets: true
     },
     {
         nombre: 'Estudio acogedor',
         src: 'assets/img/imagen3.jpeg',
         descripcion: 'Estudio perfecto para una persona',
-        ubicacion: '789 Cozy Street, Quiet Neighborhood, CA 34567',
+        ubicacion: 'Av. Grecia, Stgo.',
         habitaciones: 1,
-        costo: 900,
+        costo: 3900,
         smoke: true,
         pets: true
     },
     {
-        nombre: 'Estudio acogedor',
+        nombre: 'Amplio Departamento',
         src: 'assets/img/imagen4.jpeg',
-        descripcion: 'Estudio perfecto para una persona',
-        ubicacion: '789 Cozy Street, Quiet Neighborhood, CA 34567',
-        habitaciones: 1,
-        costo: 900,
+        descripcion: 'Fabuloso, para jovenes',
+        ubicacion: 'Av. Lo Ovalle, San Miguel',
+        habitaciones: 3,
+        costo: 89000,
         smoke: true,
-        pets: true
+        pets: false
     },
     {
-        nombre: 'Estudio acogedor',
+        nombre: 'Departamento moderno',
         src: 'assets/img/imagen5.jpeg',
-        descripcion: 'Estudio perfecto para una persona',
-        ubicacion: '789 Cozy Street, Quiet Neighborhood, CA 34567',
-        habitaciones: 1,
-        costo: 900,
-        smoke: true,
-        pets: true
+        descripcion: 'Con una vista espectacular',
+        ubicacion: 'Av. Huerfanos, Stgo',
+        habitaciones: 2,
+        costo: 2900,
+        smoke: false,
+        pets: false
     },
     {
-        nombre: 'Penthouse de lujo',
+        nombre: 'Departamento de 4 habitaciones',
         src: 'assets/img/imagen6.jpeg',
         descripcion: 'Exclusivo penthouse con vistas panorámicas',
-        ubicacion: '101 Luxury Avenue, High-end District, CA 89012',
+        ubicacion: 'Av. Esperanza, Maipu',
         habitaciones: 4,
-        costo: 5000,
-        smoke: false,
+        costo: 35000,
+        smoke: true,
         pets: true
     }
     
